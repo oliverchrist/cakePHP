@@ -1,0 +1,81 @@
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP Warning:  _cake_core_ cache was unable to write 'cake_dev_de-de' to File cache in /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php on line 310
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/index.php:0
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   2. require() /home/oliver/NetBeansProjects/cakePHP/index.php:40
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   3. include() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:81
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   4. Configure::bootstrap() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/bootstrap.php:138
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   5. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Core/Configure.php:75
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   6. Cache::config() /home/oliver/NetBeansProjects/cakePHP/app/Config/core.php:321
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   7. Cache::_buildEngine() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:137
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   8. FileEngine->init() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:166
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   9. FileEngine->_active() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php:85
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  10. __d() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php:320
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  11. I18n::translate() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/basics.php:556
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  12. Cache::write() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/I18n/I18n.php:163
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  13. __d() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:308
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  14. I18n::translate() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/basics.php:556
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  15. Cache::write() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/I18n/I18n.php:163
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  16. trigger_error() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:310
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP Warning:  _cake_core_ cache was unable to write 'cake_dev_de-de' to File cache in /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php on line 310
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/index.php:0
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   2. require() /home/oliver/NetBeansProjects/cakePHP/index.php:40
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   3. include() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:81
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   4. Configure::bootstrap() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/bootstrap.php:138
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   5. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Core/Configure.php:75
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   6. Cache::config() /home/oliver/NetBeansProjects/cakePHP/app/Config/core.php:321
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   7. Cache::_buildEngine() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:137
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   8. FileEngine->init() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:166
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   9. FileEngine->_active() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php:85
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  10. __d() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php:320
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  11. I18n::translate() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/basics.php:556
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  12. Cache::write() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/I18n/I18n.php:163
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  13. trigger_error() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:310
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP Warning:  /home/oliver/NetBeansProjects/cakePHP/app/tmp/cache/persistent/ is not writable in /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php on line 320
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/index.php:0
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   2. require() /home/oliver/NetBeansProjects/cakePHP/index.php:40
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   3. include() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:81
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   4. Configure::bootstrap() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/bootstrap.php:138
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   5. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Core/Configure.php:75
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   6. Cache::config() /home/oliver/NetBeansProjects/cakePHP/app/Config/core.php:321
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   7. Cache::_buildEngine() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:137
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   8. FileEngine->init() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:166
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   9. FileEngine->_active() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php:85
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  10. trigger_error() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php:320
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP Warning:  /home/oliver/NetBeansProjects/cakePHP/app/tmp/cache/models/ is not writable in /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php on line 320
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/index.php:0
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   2. require() /home/oliver/NetBeansProjects/cakePHP/index.php:40
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   3. include() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:81
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   4. Configure::bootstrap() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/bootstrap.php:138
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   5. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Core/Configure.php:75
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   6. Cache::config() /home/oliver/NetBeansProjects/cakePHP/app/Config/core.php:333
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   7. Cache::_buildEngine() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:137
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   8. FileEngine->init() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:166
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   9. FileEngine->_active() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php:85
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  10. trigger_error() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php:320
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP Warning:  /home/oliver/NetBeansProjects/cakePHP/app/tmp/cache/ is not writable in /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php on line 320
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/index.php:0
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   2. require() /home/oliver/NetBeansProjects/cakePHP/index.php:40
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   3. include() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:81
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   4. Configure::bootstrap() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/bootstrap.php:138
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   5. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Core/Configure.php:81
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   6. Cache::config() /home/oliver/NetBeansProjects/cakePHP/app/Config/bootstrap.php:27
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   7. Cache::_buildEngine() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:137
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   8. FileEngine->init() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Cache.php:166
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP   9. FileEngine->_active() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php:85
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] PHP  10. trigger_error() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Cache/Engine/FileEngine.php:320
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/css, referer: http://cakephp.localhost/
+[Sat Jan 21 12:33:13 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/img, referer: http://cakephp.localhost/
+[Sat Jan 21 12:33:14 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/favicon.ico
+[Sat Jan 21 12:46:17 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/css, referer: http://cakephp.localhost/
+[Sat Jan 21 12:46:17 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/img, referer: http://cakephp.localhost/
+[Sat Jan 21 12:46:17 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/favicon.ico
+[Sat Jan 21 12:58:13 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/css, referer: http://cakephp.localhost/
+[Sat Jan 21 12:58:13 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/img, referer: http://cakephp.localhost/
+[Sat Jan 21 12:58:14 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/favicon.ico
+[Sat Jan 21 12:58:16 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/css, referer: http://cakephp.localhost/
+[Sat Jan 21 12:58:16 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/img, referer: http://cakephp.localhost/
+[Sat Jan 21 12:58:16 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/favicon.ico

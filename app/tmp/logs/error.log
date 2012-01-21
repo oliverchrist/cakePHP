@@ -1,0 +1,12 @@
+2012-01-21 14:36:54 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-21 15:30:07 Error: [MissingViewException] View file "/home/oliver/NetBeansProjects/cakePHP/app/View/Posts/view.ctp" is missing.
+#0 /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php(360): View->_getViewFileName(NULL)
+#1 /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#3 /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
