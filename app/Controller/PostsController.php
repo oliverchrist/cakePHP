@@ -5,6 +5,10 @@ class PostsController extends AppController {
     public $helpers = array('Html', 'Form');
     public $components = array('Session');
     
+    public function viewActive() {
+        $this->set('title_for_layout', 'View Active Users');
+    }
+    
     public function index() {
         $this->set('posts', $this->Post->find('all'));
     }    

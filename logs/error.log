@@ -79,3 +79,73 @@
 [Sat Jan 21 12:58:16 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/css, referer: http://cakephp.localhost/
 [Sat Jan 21 12:58:16 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/img, referer: http://cakephp.localhost/
 [Sat Jan 21 12:58:16 2012] [error] [client 127.0.0.1] File does not exist: /home/oliver/NetBeansProjects/cakePHP/favicon.ico
+[Mon Jan 23 21:03:48 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method View::fetch() in /home/oliver/NetBeansProjects/cakePHP/app/View/Layouts/default.ctp on line 8
+[Mon Jan 23 21:03:48 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Mon Jan 23 21:03:48 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:0
+[Mon Jan 23 21:03:48 2012] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:96
+[Mon Jan 23 21:03:48 2012] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:86
+[Mon Jan 23 21:03:48 2012] [error] [client 127.0.0.1] PHP   4. Controller->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:111
+[Mon Jan 23 21:03:48 2012] [error] [client 127.0.0.1] PHP   5. View->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Controller/Controller.php:900
+[Mon Jan 23 21:03:48 2012] [error] [client 127.0.0.1] PHP   6. View->renderLayout() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:373
+[Mon Jan 23 21:03:48 2012] [error] [client 127.0.0.1] PHP   7. View->_render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:411
+[Mon Jan 23 21:03:48 2012] [error] [client 127.0.0.1] PHP   8. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:595
+[Mon Jan 23 21:06:51 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method View::fetch() in /home/oliver/NetBeansProjects/cakePHP/app/View/Layouts/default.ctp on line 8
+[Mon Jan 23 21:06:51 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Mon Jan 23 21:06:51 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:0
+[Mon Jan 23 21:06:51 2012] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:96
+[Mon Jan 23 21:06:51 2012] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:86
+[Mon Jan 23 21:06:51 2012] [error] [client 127.0.0.1] PHP   4. Controller->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:111
+[Mon Jan 23 21:06:51 2012] [error] [client 127.0.0.1] PHP   5. View->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Controller/Controller.php:900
+[Mon Jan 23 21:06:51 2012] [error] [client 127.0.0.1] PHP   6. View->renderLayout() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:373
+[Mon Jan 23 21:06:51 2012] [error] [client 127.0.0.1] PHP   7. View->_render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:411
+[Mon Jan 23 21:06:51 2012] [error] [client 127.0.0.1] PHP   8. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:595
+[Mon Jan 23 21:06:53 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method View::fetch() in /home/oliver/NetBeansProjects/cakePHP/app/View/Layouts/default.ctp on line 8
+[Mon Jan 23 21:06:53 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Mon Jan 23 21:06:53 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:0
+[Mon Jan 23 21:06:53 2012] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:96
+[Mon Jan 23 21:06:53 2012] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:86
+[Mon Jan 23 21:06:53 2012] [error] [client 127.0.0.1] PHP   4. Controller->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:111
+[Mon Jan 23 21:06:53 2012] [error] [client 127.0.0.1] PHP   5. View->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Controller/Controller.php:900
+[Mon Jan 23 21:06:53 2012] [error] [client 127.0.0.1] PHP   6. View->renderLayout() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:373
+[Mon Jan 23 21:06:53 2012] [error] [client 127.0.0.1] PHP   7. View->_render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:411
+[Mon Jan 23 21:06:53 2012] [error] [client 127.0.0.1] PHP   8. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:595
+[Mon Jan 23 21:07:10 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method View::fetch() in /home/oliver/NetBeansProjects/cakePHP/app/View/Layouts/default.ctp on line 22
+[Mon Jan 23 21:07:10 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Mon Jan 23 21:07:10 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:0
+[Mon Jan 23 21:07:10 2012] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:96
+[Mon Jan 23 21:07:10 2012] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:86
+[Mon Jan 23 21:07:10 2012] [error] [client 127.0.0.1] PHP   4. Controller->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:111
+[Mon Jan 23 21:07:10 2012] [error] [client 127.0.0.1] PHP   5. View->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Controller/Controller.php:900
+[Mon Jan 23 21:07:10 2012] [error] [client 127.0.0.1] PHP   6. View->renderLayout() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:373
+[Mon Jan 23 21:07:10 2012] [error] [client 127.0.0.1] PHP   7. View->_render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:411
+[Mon Jan 23 21:07:10 2012] [error] [client 127.0.0.1] PHP   8. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:595
+[Mon Jan 23 21:08:40 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method View::fetch() in /home/oliver/NetBeansProjects/cakePHP/app/View/Layouts/default.ctp on line 22
+[Mon Jan 23 21:08:40 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Mon Jan 23 21:08:40 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:0
+[Mon Jan 23 21:08:40 2012] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:96
+[Mon Jan 23 21:08:40 2012] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:86
+[Mon Jan 23 21:08:40 2012] [error] [client 127.0.0.1] PHP   4. Controller->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:111
+[Mon Jan 23 21:08:40 2012] [error] [client 127.0.0.1] PHP   5. View->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Controller/Controller.php:900
+[Mon Jan 23 21:08:40 2012] [error] [client 127.0.0.1] PHP   6. View->renderLayout() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:373
+[Mon Jan 23 21:08:40 2012] [error] [client 127.0.0.1] PHP   7. View->_render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:411
+[Mon Jan 23 21:08:40 2012] [error] [client 127.0.0.1] PHP   8. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:595
+[Mon Jan 23 21:08:41 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method View::fetch() in /home/oliver/NetBeansProjects/cakePHP/app/View/Layouts/default.ctp on line 22
+[Mon Jan 23 21:08:41 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Mon Jan 23 21:08:41 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:0
+[Mon Jan 23 21:08:41 2012] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:96
+[Mon Jan 23 21:08:41 2012] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:86
+[Mon Jan 23 21:08:41 2012] [error] [client 127.0.0.1] PHP   4. Controller->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:111
+[Mon Jan 23 21:08:41 2012] [error] [client 127.0.0.1] PHP   5. View->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Controller/Controller.php:900
+[Mon Jan 23 21:08:41 2012] [error] [client 127.0.0.1] PHP   6. View->renderLayout() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:373
+[Mon Jan 23 21:08:41 2012] [error] [client 127.0.0.1] PHP   7. View->_render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:411
+[Mon Jan 23 21:08:41 2012] [error] [client 127.0.0.1] PHP   8. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:595
+[Mon Jan 23 21:21:01 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method View::fetch() in /home/oliver/NetBeansProjects/cakePHP/app/View/Layouts/default.ctp on line 8
+[Mon Jan 23 21:21:01 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Mon Jan 23 21:21:01 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:0
+[Mon Jan 23 21:21:01 2012] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() /home/oliver/NetBeansProjects/cakePHP/app/webroot/index.php:96
+[Mon Jan 23 21:21:01 2012] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:86
+[Mon Jan 23 21:21:01 2012] [error] [client 127.0.0.1] PHP   4. Controller->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Routing/Dispatcher.php:111
+[Mon Jan 23 21:21:01 2012] [error] [client 127.0.0.1] PHP   5. View->render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/Controller/Controller.php:900
+[Mon Jan 23 21:21:01 2012] [error] [client 127.0.0.1] PHP   6. View->renderLayout() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:373
+[Mon Jan 23 21:21:01 2012] [error] [client 127.0.0.1] PHP   7. View->_render() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:411
+[Mon Jan 23 21:21:01 2012] [error] [client 127.0.0.1] PHP   8. include() /home/oliver/NetBeansProjects/cakePHP/lib/Cake/View/View.php:595
